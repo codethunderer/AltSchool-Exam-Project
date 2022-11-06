@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./style.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Counter from "./components/Counter";
-import TestError from "./components/TestError";
-import Home from "./components/Home";
+import TestErrorBoundary from "./components/TestErrorBoundary";
+import HomePage from "./components/HomePage";
 import Reducer from "./components/Reducer";
 import PageNotFound from "./components/PageNotFound";
-import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
       </nav>
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/Reducer" element={<Reducer />} />
-          <Route path="/testErrorBoundary" element={<TestError />} />
+          <Route path="/testErrorBoundary" element={<TestErrorBoundary />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>

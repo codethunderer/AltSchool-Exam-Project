@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import Navbar from '../components/Navbar'
 import { Helmet } from "react-helmet-async";
 
 const Home = ()=>{
