@@ -1,4 +1,5 @@
 import React, { useReducer, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 function Reducer() {
   useEffect(() => {
@@ -42,6 +43,11 @@ function Reducer() {
   const [count, dispatch] = useReducer(reducer, 0);
 
   return (
+    <>
+    <Helmet>
+        <title>Counter</title>
+        <meta name="description" content="reducer counter app for increment, decrement and resetting counts" />
+    </Helmet>
     <div className="counter">
       <h1>UseReducer Counter</h1>
       <div>
@@ -79,6 +85,7 @@ function Reducer() {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Reducer;
