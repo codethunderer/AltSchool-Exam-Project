@@ -12,7 +12,7 @@ body {
 /* Home page*/
 .homepage {
   background-color: darkgoldenrod;
-  padding: 40px;
+  padding: 60px 0px;
   height: 100vh
 }
 .homepage h1 {
@@ -20,7 +20,7 @@ body {
   margin-bottom: 20px;
 }
 .homepage p {
-  text-align: left;
+  text-align: center;
 }
 .navBarLink {
   margin: 5px ;
@@ -120,8 +120,8 @@ body {
 
 
 @media (max-width : 800px) {
-  navBarLink {
-    display: block;
+  .homepage p {
+    font-size: 20px;
   }
   
   .counter .buttons-wrapper {
