@@ -45,7 +45,7 @@ function Reducer() {
   return (
     <>
     <Helmet>
-        <title>Counter</title>
+        <title>Reducer Counter</title>
         <meta name="description" content="reducer counter app for increment, decrement and resetting counts" />
     </Helmet>
     <div className="counter">
