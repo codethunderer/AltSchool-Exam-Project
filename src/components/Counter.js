@@ -10,8 +10,7 @@ function Counter() {
     <Helmet>
         <title>Counter</title>
         <meta name="description" content="counter app for increment, decrement and resetting counts" />
-        <link rel="canonical" href="/counter" />
-      </Helmet>
+    </Helmet>
     <div className="counter">
       <h1>A Custom Counter Hook</h1>
       <div>
