@@ -11,8 +11,9 @@ const Home = ()=>{
         <meta name="description" content="This shows the Home page of the counter app" />
         <link rel="canonical" href="/" />
     </Helmet>
-      <div className="home-page">
+      <div className="homepage">
         <h1>Welcome to My Counter App</h1>
+        <p>A counter app used for setting the value, increasing, decreasing and resetting of a counter.</p>
       </div>
     </>
   )
