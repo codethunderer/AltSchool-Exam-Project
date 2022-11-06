@@ -21,7 +21,6 @@ class ErrorBoundary extends React.Component {
           <Helmet>
             <title>Error Boundary</title>
             <meta name="description" content="This shows the error boundary of the counter app" />
-            <link rel="canonical" href="/testErrorBoundary" />
           </Helmet>
          <div className="error-boundary">
            <h2>Oops...Something went wrong</h2>
