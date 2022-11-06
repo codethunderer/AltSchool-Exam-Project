@@ -50,8 +50,8 @@ body {
   padding: 15px 25px;
   font-size: 1.2rem;
   outline: none;
-  border: 5px solid darkgoldenrod;
-  border-radius: 20px;
+  border: 7px solid darkgoldenrod;
+  border-radius: 0px;
   /* width: 60px; */
 }
 
@@ -70,12 +70,11 @@ body {
   color: black;
   font-weight: bold;
   padding: 14px 0;
-  width: 160px;
-  border: 5px solid darkgoldenrod;
-  border-radius: 10px;
-  cursor: pointer;
+  width: 150px;
+  border: 7px solid darkgoldenrod;
+  border-radius: 0px;
   height: fit-content;
-  transition: font-size 300ms ease-in-out;
+  transition: font-size 300ms ease-in-out
 }
 
 .counter button:hover {
@@ -86,7 +85,7 @@ body {
   font-size: 1.1rem;
 }
 
-.test-error {
+.test-error-boundary {
   background-color: darkgoldenrod;
   display: flex;
   flex-direction: column;
@@ -96,11 +95,11 @@ body {
   text-align: center;
   height: 100vh
 }
-.test-error label {
+.test-error-boundary label {
   font-size: 1.3rem;
   font-weight: bold;
 }
-.test-error input {
+.test-error-boundary input {
   width: 60%;
   margin: 20px ;
   padding: 20px;
@@ -111,7 +110,7 @@ body {
   border-radius: 20px;
 }
 
-.error-boundary {
+.errorboundary {
   display: grid;
   place-content: center;
   height: 100vh;

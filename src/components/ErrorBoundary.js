@@ -22,7 +22,7 @@ class ErrorBoundary extends React.Component {
             <title>Error Boundary</title>
             <meta name="description" content="This shows the error boundary of the counter app" />
           </Helmet>
-         <div className="error-boundary">
+         <div className="errorboundary">
            <h2>Oops...Something went wrong</h2>
            <details>
             {this.state.error && this.state.error.toString()}

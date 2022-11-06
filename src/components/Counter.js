@@ -16,7 +16,7 @@ function Counter() {
       <div>
         <input
           type="text"
-          placeholder="Set Counter Value"
+          placeholder="Input Counter Value"
           onChange={setValue}
           onBlur={(e) => {
             e.target.value = "";

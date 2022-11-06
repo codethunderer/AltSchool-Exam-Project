@@ -12,7 +12,7 @@ export default function TestError() {
     throw new Error("CABOOM");
   }
   return (
-    <div className="test-error">
+    <div className="test-error-boundary">
       <label>Type Bomb to test Error boundary</label>
       <input
         onChange={handleError}

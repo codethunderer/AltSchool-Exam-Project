@@ -49,11 +49,11 @@ function Reducer() {
         <meta name="description" content="reducer counter app for increment, decrement and resetting counts" />
     </Helmet>
     <div className="counter">
-      <h1>UseReducer Counter</h1>
+      <h1>A UseReducer Counter</h1>
       <div>
         <input
           type="text"
-          placeholder="set counter value"
+          placeholder="Input Counter Value"
           onChange={inputHandler}
           onBlur={(e) => {
             e.target.value = "";
