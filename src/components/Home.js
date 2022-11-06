@@ -7,7 +7,7 @@ const Home = ()=>{
     <>
     <Helmet>
         <title>Home Page</title>
-        <meta name="description" content="counter app for increment, decrement and resetting counts" />
+        <meta name="description" content="This shows the Home page of the counter app" />
         <link rel="canonical" href="/" />
     </Helmet>
       <div className="home-page">
