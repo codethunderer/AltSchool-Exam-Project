@@ -1,4 +1,1 @@
 https://counterapp-87df5f.netlify.app/
-https://counterapp-87df5f.netlify.app/counter
-https://counterapp-87df5f.netlify.app/reducer
-https://counterapp-87df5f.netlify.app/testErrorBoundary
