@@ -47,6 +47,7 @@ function Reducer() {
     <Helmet>
         <title>Reducer Counter</title>
         <meta name="description" content="reducer counter app for increment, decrement and resetting counts" />
+        <link rel="canonical" href="/reducer" />
     </Helmet>
     <div className="counter">
       <h1>UseReducer Counter</h1>
