@@ -110,7 +110,7 @@ body {
   border-radius: 20px;
 }
 
-.errorboundary {
+.error-boundary {
   display: grid;
   place-content: center;
   height: 100vh;
