@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(243,246,253,255);
+  color: #051094;
+}
+
+/* Home page*/
+.home-page {
+  background-color: darkgoldenrod;
+  padding: 40px;
+  height: 100vh
+}
+.home-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.navBarLink {
+  margin: 5px ;
+}
+
+/* Counter page styling */
+.counter {
+  margin: 50px 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.counter h1 {
+  text-align: center;
+}
+.counter > div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.counter input {
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 5px solid darkgoldenrod;
+  border-radius: 20px;
+  /* width: 60px; */
+}
+
+.counter .count-num {
+  margin: 20px 0;
+}
+
+.counter .buttons-wrapper {
+  display: flex;
+  width: 70%; 
+  justify-content: space-between;
+  height: 150px;
+  /* background-color: #051094; */
+
+}
+.counter button {
+  background-color: darkgoldenrod;
+  color: #051094;
+  font-weight: bold;
+  padding: 14px 0;
+  width: 160px;
+  border: 5px solid darkgoldenrod;
+  border-radius: 10px;
+  cursor: pointer;
+  height: fit-content;
+  transition: font-size 300ms ease-in-out;
+}
+
+.counter button:hover {
+  font-size: 1.1rem;
+}
+
+.counter a {
+  font-size: 1.1rem;
+}
+
+.test-error {
+  background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+  height: 100vh
+}
+.test-error label {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.test-error input {
+  width: 60%;
+  margin: 20px ;
+  padding: 20px;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 5px solid darkgoldenrod;
+  border-radius: 20px;
+}
+
+.error-boundary {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+@media (max-width : 800px) {
+  navBarLink {
+    display: block;
+  }
+  
+  .counter .buttons-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  
+    height: fit-content;
+  }
+  .counter button {
+    margin: 10px 0;
+  }
+  .counter h1 {
+    text-align: center;
+    padding: 0 30px;
+  }
+  
+}
