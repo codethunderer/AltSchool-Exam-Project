@@ -1,3 +1,3 @@
 # AltSchool-Exam-Project
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-4vjpyn)
+https://counterapp-9ab72a.netlify.app/
